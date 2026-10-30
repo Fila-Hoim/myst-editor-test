@@ -23,6 +23,7 @@ a quick setup for your open publishing project.
 
 Originally created by  
 *Freek Pols*
+And now being edited by me through the myst editor. 
 
 ![](figures/cover.png)
 
