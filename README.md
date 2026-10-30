@@ -13,6 +13,19 @@ It includes:
 - yml files in the root folder to configure the book and the pdf build
 
 
+## ✏️ MyST editor test setup
+
+This copy of the starterkit tests the MyST editor's GitHub backend before it is released.
+
+- **The editor** is served at `https://fila-hoim.github.io/myst-editor-test/editor/` (once Pages is on). It runs the build packed in
+  `editor-dist/`, installed by `plugins/editor-local.mjs`, and configured in `editor/options.js`.
+- **A newer editor build:** run `./update-editor.sh` (it builds the `myst-editor` checkout next to this repository), commit
+  `editor-dist/`, and push. `editor-dist/VERSION` says which build is in.
+- **Publishing:** `.github/workflows/pages.yml` builds and publishes on every push to `main`, which includes every commit made in
+  the editor. Switch Pages on once under Settings → Pages → Source: **GitHub Actions**.
+- **Signing in:** with a fine-grained token for this repository (Contents: Read and write, Pull requests: Read-only); the editor's
+  sign-in screen explains the steps.
+
 ## 🕵 Where to start
 Already know about Jupyter Book, familiar with GitHub or GitLab, Markdown... start with cloning the [starterkit](https://github.com/new?template_name=starterkit&template_owner=TUD-JB-OS) and start writing working on your project. New to the ecosystem? Start with [the manual](https://jboss.tudelft.nl/manual), and then move on to the starterkit.
 
