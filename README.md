@@ -23,8 +23,9 @@ This copy of the starterkit tests the MyST editor's GitHub backend before it is 
   `editor-dist/`, and push. `editor-dist/VERSION` says which build is in.
 - **Publishing:** `.github/workflows/pages.yml` builds and publishes on every push to `main`, which includes every commit made in
   the editor. Switch Pages on once under Settings → Pages → Source: **GitHub Actions**.
-- **Signing in:** with a fine-grained token for this repository (Contents: Read and write, Pull requests: Read-only); the editor's
-  sign-in screen explains the steps.
+- **Signing in:** one click, through a GitHub App and the token relay (`clientId` and `tokenUrl` in `editor/options.js`; see
+  `myst-editor/tools/github-token-relay`). Without them, people sign in with a fine-grained token for this repository (Contents:
+  Read and write, Pull requests: Read-only); the editor's sign-in screen explains the steps.
 
 ## 🕵 Where to start
 Already know about Jupyter Book, familiar with GitHub or GitLab, Markdown... start with cloning the [starterkit](https://github.com/new?template_name=starterkit&template_owner=TUD-JB-OS) and start writing working on your project. New to the ecosystem? Start with [the manual](https://jboss.tudelft.nl/manual), and then move on to the starterkit.
