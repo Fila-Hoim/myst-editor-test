@@ -11,6 +11,8 @@ try {
 
     backend: "github",
     githubRepo: "Fila-Hoim/myst-editor-test",
+    clientId: "Iv23lihZb8wRteb34lj9",
+    tokenUrl: "https://myst-editor.stanislasgroen.workers.dev/",
     // Sign-in: with no relay configured, people sign in with a fine-grained token for this repository
     // (the editor explains how). For one-click sign-in through a GitHub App, deploy the relay from
     // myst-editor/tools/github-token-relay and fill in:
