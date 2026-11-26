@@ -17,7 +17,7 @@ no-update-date: true
 
 ## The TUD starterkit for open publishing with JupyterBook
 
-a quick setup for your open publishing project.
+a quick setup for your open publishing project. Now editable using the Myst-Editor authenticated with a gitlab app!
 
 {button}`Use this template <https://github.com/new?template_name=starterkit&template_owner=TUD-JB-OS>`  
 
