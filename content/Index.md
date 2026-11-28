@@ -15,7 +15,7 @@ no-update-date: true
 
 +++ { "kind": "split-image" }
 
-## The TUD starterkit for open publishing with JupyterBook
+## Ohw my good, that's the funky sh*t
 
 a quick setup for your open publishing project. Now editable using the Myst-Editor authenticated with a gitlab app!
 
